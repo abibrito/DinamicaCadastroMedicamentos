@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+
+nav {
+    background: #76BEBE;;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+
+}
+nav a{
+    color: #F5F5F5;
+    text-decoration: none;
+    padding: 30px;
+}
+.header{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.titulo {
+    color: #CF509C;;
+    align-items: center;
+    text-align: center;
+}
+.titulo span{
+    color:#000000;
+}
+.container{
+    background-color: #F5F5F5;
+
+}

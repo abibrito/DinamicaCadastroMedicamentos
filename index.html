@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Medicamentos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Cadastro de Medicamentos</a>
+            <a href="">Cadastro de Vacinas</a>
+            <a href="">Cadastro de Cosméticos</a>
+        </nav>
+        <div class="header">
+            <img src="./assets/img/logoMed.png" alt="logo">
+            <div class="titulo">
+                <h1>Cadastro de Medicamentos</h1>
+                <span>Farmácia da Gente</span>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form action="pag1.html">
+            <label for="">Nome do Medicamento</label>
+            <input type="text" id="nameMed" nome="nameMed" placeholder="Vitaxon">
+
+            <label for="">Quantidade Disponível</label>
+            <input type="text" id="qtd" name="qtd" placeholder="199">
+
+            <label for="">Preço por unidade</label>
+            <input type="text" id="preco" nome="preco" placeholder="9,99">
+
+            <label for="">Classe de Medicamento</label>
+            <input type="text" id="classMed" nome="classMed" placeholder="Vitamina">
+
+            <button id="submit-butto" type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
